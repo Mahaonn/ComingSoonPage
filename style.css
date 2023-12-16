@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.main-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+
+.text-container {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  color: #000000;
+}
+
+.text-title-primary {
+  margin-bottom: 20px;
+  font-size: 55px;
+  font-weight: 600px;
+  text-transform: uppercase;
+}
+
+.text-title-secondary {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #2d177d;
+}
+
+.text-description {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.sub-input {
+  padding: 8px 4px;
+}
+
+.button {
+  padding: 8px 4px;
+  background: #8064e9;
+  border-radius: 5px;
+  border: 2px solid #8064e9;
+  color: #fff;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #5e41a7;
+}
+
+.social-container {
+  margin-top: 30px;
+}
+
+.social-icon {
+  margin: 0 5px;
+  fill: #000000;
+}
+
+.social-link {
+  text-decoration: none;
+}
