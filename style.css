@@ -87,7 +87,20 @@ button:hover {
 
 .social-icon {
   margin: 0 5px;
-  fill: #000000;
+  transition: fill 0.3s linear;
+}
+
+.social-icon-facebook:hover {
+  fill: #0866ff;
+}
+
+.social-icon-instagram:hover {
+  background: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+  border-radius: 10px;
+}
+
+.social-icon-youtube:hover {
+  fill: #ff0000;
 }
 
 .social-link {
